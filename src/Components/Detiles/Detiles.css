@@ -1,0 +1,9 @@
+
+.detiles__wrap{
+    max-width: 1450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10px;
+}

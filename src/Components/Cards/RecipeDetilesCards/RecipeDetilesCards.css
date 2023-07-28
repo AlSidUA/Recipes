@@ -1,0 +1,209 @@
+.detiles-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: Quando;
+}
+.detiles-cards-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 62vh;
+    background: #FFF;
+
+}
+.detiles-cards-left img{
+    height: 50%;
+}
+.detiles-cards-left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    height: 44%;
+    padding: 13% 5% 35% 15%;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detiles-cards-left-content h2{
+    font-size: 24px
+}
+.detiles-cards-left-content-names{
+    display: flex;
+    gap: 3px;
+}
+
+.detiles-cards-left-content-names span{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detiles-cards-left-content-names h3{
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 16px;
+}
+
+.detiles-cards-left-content-time{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.70);
+}
+
+.detiles-cards-left-content-names-float-description{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.detiles-cards-left-content-names-float-text{
+    font-size: 16px;
+    line-height: 20px; 
+    color: rgba(0, 0, 0, 0.70);
+}
+
+.detiles-cards-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50vw;
+    height: 80vh;
+    margin: 0 17px ;
+    padding: 3% 3.3% 0 3%;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.detiles-cards-right-ingredients{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.detiles-cards-right-ingredients-box{
+        position: relative;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: max-content;
+        margin-bottom: 5px;
+        padding-left: 7%;
+        background: #FBFBFB;
+        color: rgba(0, 0, 0, 0.70);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+.checkboxField{
+    position: absolute;
+    right: 18px;
+    align-items: center;
+}
+
+.detiles-cards-right-bottom{
+    max-width: 100%;
+    height: 34%;
+    padding: 5% 5% 0 5%;
+    background: #FFC759;
+    color: rgba(0, 0, 0, 0.72);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detiles-cards-right Button{
+    width: 227px;
+    height: 6%;
+    position: absolute;
+    right: 47px;
+    bottom: 17px;
+    padding-top: 8px;
+    color: #FDFDFD;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .detiles-cards{
+        min-width: 100%;
+    }
+    .detiles-cards-left{
+        width: 40vw;
+    }
+    .detiles-cards-right{
+        width: 60vw;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .detiles-cards{
+        min-width: 100%;
+    }
+    .detiles-cards-left{
+        width: 40vw;
+    }
+    .detiles-cards-right{
+        width: 60vw;
+        height: 90vh;
+    }
+    .detiles-cards-right-bottom{
+        height: 38%;
+        font-size: 22px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .detiles-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 auto;
+        width: 90vw;
+    }
+    .detiles-cards-left{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 40vh;
+        align-items: center;
+
+        }
+        .detiles-cards-left img{
+            width: 60%;
+        }
+    .detiles-cards-left-content{
+        margin-top: -40px;
+    }
+
+    .detiles-cards-right{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+    }
+    .detiles-cards-right-bottom{
+        height: 39%;
+        font-size: 22px;
+    }
+    Button{
+        bottom: 8px;
+    }
+}
+
+@media all and (max-width: 480px) { }

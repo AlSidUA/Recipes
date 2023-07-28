@@ -1,0 +1,85 @@
+.banner{
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+}
+
+.banner__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 59px 319px 142px 319px;
+    background-color: #FCFFD8;
+}
+
+.banner__content_text h1{
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+}
+.banner__content_text p{
+    width: 75%;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.banner__content_text Button{
+    width: 240px;
+    height: 71px;
+    margin-top: 17px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.banner__content_banner img{
+    width: 94%;
+}
+Button{
+    
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .banner__content{
+        padding: 30px 190px 90px 190px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .banner__content_text h1{
+        font-size: 40px;
+    }
+    .banner__content{
+        padding: 25px 140px 70px 140px;
+        text-align: center;
+    }
+    .banner__content_text p{
+        margin: 0 auto;
+    }
+    
+    .banner__content_banner img{
+        display: none;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .banner__content_text h1{
+        font-size: 35px;
+    }
+    .banner__content{
+        padding: 25px 140px 70px 140px;
+        text-align: center;
+    }
+    .banner__content_text p{
+    margin: 0 auto;
+    }
+        .banner__content_banner img{
+        display: none;
+    }
+    }
+
+@media all and (max-width: 480px) { }
+
+
+
