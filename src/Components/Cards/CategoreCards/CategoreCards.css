@@ -21,6 +21,8 @@
 .cards h2{
     margin-top: 29px;
     color: #000;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .cards p{

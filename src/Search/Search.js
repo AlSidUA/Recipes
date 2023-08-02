@@ -1,8 +1,8 @@
 import React from "react";
+import Detiles from "../Components/Detiles/Detiles";
 
 const Search = ()=>{
-    return
-    
+    return <Detiles/>
 }
 
 export default Search;

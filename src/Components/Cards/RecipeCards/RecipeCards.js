@@ -10,7 +10,7 @@ const RecipeCards = ({obj})=>{
                 <h2>{name}</h2>
                 <h2>{`Категорія: ${categore}`}</h2>  
                 <p>{description}</p>
-                <Button cardstyle={true}>Show details</Button>
+                <Button cardstyle={true}>Показати деталі</Button>
             </div>
         )
     

@@ -27,7 +27,7 @@ const mainRecipes = [
     {
         "photo": firstMealImg,
         "name": "Борщ",
-        "categore": "Супи",
+        "categore": "Супи та Основні страви",
         "time": "1 година",
         "description": "Традиційний український борщ з м'ясом, буряком, картоплею і капустою.",
         "ingredients": [
@@ -47,7 +47,7 @@ const mainRecipes = [
     {
         "photo": secondCoursesImg,
         "name": "Паста Карбонара",
-        "categore": "Основні страви",
+        "categore": "Супи та Основні страви",
         "time": "20 хвилин",
         "description": "Італійська паста з беконом, вершками і яйцями.",
         "ingredients": [
@@ -82,7 +82,7 @@ const mainRecipes = [
     {
         "photo": mainDishsImg,
         "name": "Куриця теріякі",
-        "categore": "Основні страви",
+        "categore": "Супи та Основні страви",
         "time": "40 хвилин",
         "description": "Соковиті шматочки курячого м'яса з пікантним соусом теріякі.",
         "ingredients": [
@@ -101,7 +101,7 @@ const mainRecipes = [
     {
         "photo": mainDishsImg,
         "name": "Овочевий гратен",
-        "categore": "Основні страви",
+        "categore": "Супи та Основні страви",
         "time": "45 хвилин",
         "description": "Смачний гратен з картоплі, морквини, цибулі та сметани.",
         "ingredients": [
@@ -118,7 +118,7 @@ const mainRecipes = [
     {
         "photo": firstMealImg,
         "name": "Суп Мінестроне",
-        "categore": "Супи",
+        "categore": "Супи та Основні страви",
         "time": "1 година 15 хвилин",
         "description": "Традиційний італійський суп Мінестроне з овочами, бобами і макаронами.",
         "ingredients": [
@@ -139,7 +139,7 @@ const mainRecipes = [
     {
         "photo": mainDishsImg,
         "name": "Тунець стейк",
-        "categore": "Основні страви",
+        "categore": "Супи та Основні страви",
         "time": "25 хвилин",
         "description": "Смачний стейк зі свіжого тунця з соєвим соусом і імбирним маринадом.",
         "ingredients": [
@@ -156,7 +156,7 @@ const mainRecipes = [
     {
         "photo": mainDishsImg,
         "name": "Мексиканська чилі",
-        "categore": "Основні страви",
+        "categore": "Супи та Основні страви",
         "time": "1 година 30 хвилин",
         "description": "Пікантне чилі з яловичиною, перцем і соусом чилі.",
         "ingredients": [
@@ -215,7 +215,7 @@ const mainRecipes = [
     {
         "photo": mainDishsImg,
         "name": "Плов",
-        "categore": "Основні страви",
+        "categore": "Супи та Основні страви",
         "time": "1 година",
         "description": "Традиційний плов з бараниною, моркви і рисом.",
         "ingredients": [
@@ -271,7 +271,7 @@ const mainRecipes = [
     {
         "photo": mainDishsImg,
         "name": "Люля-кебаб",
-        "categore": "Основні страви",
+        "categore": "Супи та Основні страви",
         "time": "40 хвилин",
         "description": "Соковиті фаршировані котлети з яловичини з приправами.",
         "ingredients": [
@@ -292,7 +292,7 @@ const mainRecipes = [
     {
         "photo": mainDishsImg,
         "name": "Шницель",
-        "categore": "Основні страви",
+        "categore": "Супи та Основні страви",
         "time": "30 хвилин",
         "description": "Смажений шматок м'яса в клярі.",
         "ingredients": [
@@ -308,7 +308,7 @@ const mainRecipes = [
     {
         "photo": firstMealImg,
         "name": "Тирольський кнедлі",
-        "categore": "Супи",
+        "categore": "Супи та Основні страви",
         "time": "1 година 15 хвилин",
         "description": "Смачний суп з картоплі, кнедлі та бекону.",
         "ingredients": [
@@ -344,7 +344,7 @@ const mainRecipes = [
     {
         "photo": secondCoursesImg,
         "name": "Картопляний гратен",
-        "categore": "Основні страви",
+        "categore": "Супи та Основні страви",
         "time": "1 година",
         "description": "Смачний гратен з картоплі, сиру та вершків.",
         "ingredients": [
@@ -360,7 +360,7 @@ const mainRecipes = [
     {
         "photo": drinImg,
         "name": "Мохіто",
-        "categore": "Алкогольні напої",
+        "categore": "Напої",
         "time": "10 хвилин",
         "description": "Свіжий та освіжаючий коктейль з ромом, лимоном та м'ятою.",
         "ingredients": [
@@ -377,7 +377,7 @@ const mainRecipes = [
     {
         "photo": drinImg,
         "name": "Фреш з апельсинів",
-        "categore": "Безалкогольні напої",
+        "categore": "Напої",
         "time": "5 хвилин",
         "description": "Соковитий і вітамінний напій зі свіжих апельсинів.",
         "ingredients": [
@@ -390,7 +390,7 @@ const mainRecipes = [
     {
         "photo": drinImg,
         "name": "Матча латте",
-        "categore": "Гарячі напої",
+        "categore": "Напої",
         "time": "5 хвилин",
         "description": "Традиційний японський зелений чай матча з молоком.",
         "ingredients": [
@@ -404,7 +404,7 @@ const mainRecipes = [
     {
         "photo": drinImg,
         "name": "Смузі з ягід",
-        "categore": "Безалкогольні напої",
+        "categore": "Напої",
         "time": "5 хвилин",
         "description": "Освіжаючий смузі зі змішаними ягодами та йогуртом.",
         "ingredients": [
@@ -419,7 +419,7 @@ const mainRecipes = [
     {
         "photo": drinImg,
         "name": "Капучіно",
-        "categore": "Гарячі напої",
+        "categore": "Напої",
         "time": "10 хвилин",
         "description": "Класичний італійський кавовий напій з молоком.",
         "ingredients": [

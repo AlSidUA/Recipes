@@ -6,11 +6,8 @@ const Home=({setActivePage})=> {
     
     return (
         <div className="home">
-            {
-                <Banner setActivePage={setActivePage}/>
-            }
-            
-            <Main/>
+            <Banner setActivePage={setActivePage}/>
+            <Main setActivePage={setActivePage}/>
         </div>
     );
 }
