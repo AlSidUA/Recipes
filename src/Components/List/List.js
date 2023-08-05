@@ -3,20 +3,21 @@ import mainRecipes from "../Array/Recipes";
 import RecipeCards from "../Cards/RecipeCards/RecipeCards";
 import mainCards from "../Array/Categories";
 import "./List.css"
-console.log(mainCards.type);
+import { useState } from "react";
+import CategoreCards from "../Cards/CategoreCards/CategoreCards";
 
-function List({activeType, setActiveType}) {
-    
+
+function List({setActivePage, type}) {
+
     return (
         <div className="list">
             <div className="list__cards">
             {
-                !!activeType ?
-                mainRecipes.filter(velue=>velue.categore===mainCards.type).map(element => <RecipeCards setActiveType={activeType} key={element.id} obj={element}/>)
-                : mainRecipes.map(value => <RecipeCards key={value.id} obj={value}/>)
+                setActivePage ? mainRecipes.filter(value=>value.categore===type).map(element => <RecipeCards key={element.id} obj={element}/>)
+            :    mainRecipes.map(value => <RecipeCards key={value.id} obj={value}/>)
             }
-            {activeType}
-            </div>
+            
+        </div>
         </div>
         
     );

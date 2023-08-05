@@ -19,7 +19,7 @@ function App({}) {
     element: <Home setActivePage={setActivePage}/>
   },
   { navName:'LIST',
-    element:<List setActivePage={setActivePage}/>
+    element:<List/>
   },
   { navName:'SEARCH',
     element:<Search/>
