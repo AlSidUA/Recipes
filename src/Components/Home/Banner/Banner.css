@@ -31,6 +31,7 @@
     color: #FFF;
     font-size: 24px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .banner__content_banner img{

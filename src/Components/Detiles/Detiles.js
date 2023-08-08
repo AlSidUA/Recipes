@@ -4,12 +4,14 @@ import RecipeDetilesCards from "../Cards/RecipeDetilesCards/RecipeDetilesCards";
 import mainRecipes from "../Array/Recipes";
 
 
-function Detiles() {
+
+function Detiles({modalOpen, setModalOpen, name, modalClose}) {
     return (
         <div className="detiles">
             <div className="detiles__wrap">
             {
-                mainRecipes.map(value => <RecipeDetilesCards key={value.name} obj={value}/>)
+                setModalOpen ? mainRecipes.filter(value=>value.name===name).map(value => <RecipeDetilesCards setModalOpen={setModalOpen} modalClose={modalClose} key={value.name} obj={value}/>)
+                : null
             }
             </div>
             

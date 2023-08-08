@@ -1,10 +1,12 @@
 import React from "react";
 import Button from "../../Button/Button";
-import "../RecipeDetilesCards/RecipeDetilesCards.css"
-import mainRecipes from "../../Array/Recipes";
+import "../RecipeDetilesCards/RecipeDetilesCards.css";
 
-
-const RecipeDetilesCards = ({obj})=>{
+const RecipeDetilesCards = ({obj, setModalOpen, modalClose})=>{
+    const handleButton = () => {
+        setModalOpen(modalClose);
+        
+    }
     const {photo, name, categore, time, description, ingredients, cookingMethod} = obj;
     return(
         <div className="detiles-cards">
@@ -35,12 +37,11 @@ const RecipeDetilesCards = ({obj})=>{
                                     <input type="checkbox" class="checkboxField" />
                                 </div>)
                             }
-                            
                     </div>
                 <div className="detiles-cards-right-bottom">
                     <p>{cookingMethod}</p>
                 </div>
-                <Button colorstyle={true} cardstyle={true}>Back</Button>
+                <Button onClick={handleButton} colorstyle={true} cardstyle={true} >Back</Button>
             </div>
         </div>
     )
