@@ -31,7 +31,7 @@ function App({}) {
     <div className="App">
       <Header setActivePage={setActivePage} activePage={activePage} navigation={navigation}/>
         {activePage}
-        
+
     </div>
   );
 }

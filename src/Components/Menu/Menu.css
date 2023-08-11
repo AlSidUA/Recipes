@@ -8,3 +8,28 @@
     font-weight: 400;
     cursor: pointer;
 }
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .menu{
+        font-size: 30px;
+    }
+    
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .menu{
+        font-size: 30px;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .menu{
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 480px) {
+
+}
+
+
+

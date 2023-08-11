@@ -2,7 +2,7 @@ import React from "react";
 import "../Menu/Menu.css"
 
 const Menu = ({items, setActivePage})=> {
-    console.log(items); 
+
     return(
         <div className="menu">
             {

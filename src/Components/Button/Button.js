@@ -1,7 +1,5 @@
 import { styled } from "styled-components"
 
-
-
 const Button = styled.button`
     background-color: ${props => props.colorstyle ? "rgba(255, 57, 57, 0.60);" : "#F8A607"};
     border: #FFF;
@@ -10,5 +8,4 @@ const Button = styled.button`
     padding: 17px 0;
     text-align: center;
 `
-
 export default Button

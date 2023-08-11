@@ -4,7 +4,6 @@ import RecipeDetilesCards from "../Cards/RecipeDetilesCards/RecipeDetilesCards";
 import mainRecipes from "../Array/Recipes";
 
 
-
 function Detiles({modalOpen, setModalOpen, name, modalClose}) {
     return (
         <div className="detiles">

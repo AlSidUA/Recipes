@@ -1,6 +1,6 @@
 .list{
     width: 100vw;
-    height: 100%;
+    height: 3000px;
     margin-top: 10px;
     padding-top: 102px;
 }
@@ -24,9 +24,11 @@
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
+
     .list__cards{
         gap: 15px;
         width: 60vw;
+
     }
 }
 

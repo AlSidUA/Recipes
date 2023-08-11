@@ -435,10 +435,6 @@ const mainRecipes = [
 export default mainRecipes
 
 
-/*let mainRecipes = arrRecipes.map(function(obj) {
-    return {photo:obj.photo, 'name':obj.name, 'categore':obj.categore, 'time':obj.time, 'description':obj.description, 'ingredients':obj.ingredients, 'cookingMethod':obj.cookingMethod};
-    
-});*/
 
 
 
