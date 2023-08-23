@@ -1,19 +1,15 @@
 import React from "react";
 import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
-import { InboxOutlined, UploadOutlined } from '@ant-design/icons';
 import mainRecipes from "../../src/Components/Array/Recipes"
 import { 
     Form, 
     Button,
     Input,
-    Image,
     InputNumber,
-    message,
+    /*message,*/
     Select,
-    Space,
 } from "antd";
 import "./Forms.css";
-import { upload } from "@testing-library/user-event/dist/upload";
 
 
 const { Option } = Select;
@@ -44,13 +40,14 @@ const Forms = ()=>{
 
     const [form] = Form.useForm();
     
-    const onMessege = () => {
+    /*const onMessege = () => {
         message.success('Submit success!');
+        
     };
     
     const onMessegeFailed = () => {
         message.error('Submit failed!');
-    };
+    };*/
     
 
 
@@ -59,8 +56,8 @@ const Forms = ()=>{
             name={"form"}
             onFinish={onFinish}
             layout="vertical"
-            onMessege={onMessege}
-            onMessegeFailed={onMessegeFailed}
+            /*onMessege={onMessege}
+            onMessegeFailed={onMessegeFailed}*/
             autoComplete="off"
         >
             <h2>Тут ви можете додати рецепти Ваших улюблених страв!</h2>

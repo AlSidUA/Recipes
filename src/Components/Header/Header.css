@@ -19,6 +19,7 @@
 .header__nav img {
     max-width: 189;
     max-height: 62;
+    cursor: pointer;
 }
 
 .header__menu{

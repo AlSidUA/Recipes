@@ -4,8 +4,6 @@ import "./Modal.css";
 import Detiles from "../Detiles/Detiles";
 
 
-
-
 const Modal  = ({isOpen, onClose, children}) => {
     const modalClose = () => onClose();
     <Detiles modalClose={modalClose}/>
@@ -24,5 +22,4 @@ const Modal  = ({isOpen, onClose, children}) => {
     
 };
 
-//<button onClick={modalClose}>Hallo</button>
 export default Modal;

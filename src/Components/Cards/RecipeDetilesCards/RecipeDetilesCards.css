@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30vw;
+    width: 33%;
     height: 62vh;
     background: #FFF;
 
@@ -74,7 +74,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 50vw;
+    width: 66%;
     height: 80vh;
     margin: 0 17px ;
     padding: 2% 3.3% 0 3%;
@@ -87,7 +87,7 @@
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    height: 48%;
+    height: 53%;
     
 }
 
@@ -96,7 +96,6 @@
     display: block;
     display: flex;
     flex-direction: column;
-    max-width: 100%;
     height: max-content;
     padding-left: 7%;
     background: #FBFBFB;
@@ -115,7 +114,7 @@
 
 .detiles-cards-right-bottom{
     max-width: 100%;
-    height: 39%;
+    height: 35%;
     padding: 3% 5% 0 5%;
     background: #FFC759;
     color: rgba(0, 0, 0, 0.72);
@@ -123,14 +122,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border-radius: 15px;
 }
 
 .detiles-cards-right Button{
     width: 227px;
     height: 6%;
     position: absolute;
-    right: 47px;
+    right: 38px;
     bottom: 17px;
     padding-top: 8px;
     color: #FDFDFD;
@@ -194,7 +192,7 @@
     }
 
     .detiles-cards-right{
-        width: 100%;
+        width: 93%;
         height: 100vh;
         margin: 0;
     }

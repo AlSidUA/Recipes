@@ -6,9 +6,9 @@ const Menu = ({items, setActivePage})=> {
     return(
         <div className="menu">
             {
-                items.map(value => {return <div key={value.navName} onClick={ ()=>{setActivePage(value.element)}}>
+                items.map(value => <div key={value.navName} onClick={ ()=>{setActivePage(value.element)}}>
                     {value.navName}
-                    </div>})
+                    </div>)
             }
         </div>
     )

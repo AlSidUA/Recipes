@@ -10,8 +10,8 @@ function List({setActivePage, type}) {
         <div className="list">
             <div className="list__cards">
                 {
-                    setActivePage ? mainRecipes.filter(value=>value.categore===type).map(element => <RecipeCards key={element.id} obj={element}/>)
-                    :    mainRecipes.map(value => <RecipeCards key={value.id} obj={value}/>)
+                    setActivePage ? mainRecipes.filter(value=>value.categore===type).map(element => <RecipeCards key={element.name} obj={element}/>)
+                    :    mainRecipes.map(value => <RecipeCards key={value.name} obj={value}/>)
                 }
             </div>
         </div>
@@ -21,20 +21,3 @@ function List({setActivePage, type}) {
 }
 
 export default List;
-//mainRecipes.filter(velue=>velue.categore==="Напої").map(element => <RecipeCards key={element.id} obj={element}/>)
-
-
-
-//console.log(mainRecipes[0].categore);
-/*{
-    mainRecipes.map(value => <RecipeCards key={value.id} obj={value}/>)
-    
-}*/
-
-/*mainRecipes.map(value =>{
-    if (value.categore === "Основні страви"){
-        return <RecipeCards key={value.id} obj={value}/>
-    }else{
-        
-    }
-})*/

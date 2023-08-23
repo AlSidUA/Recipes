@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import "./Main.css";
 import CategoreCards from "../../Cards/CategoreCards/CategoreCards";
 import mainCards from "../../Array/Categories";

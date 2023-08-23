@@ -4,8 +4,6 @@ import img_mainDish from "../Img/main_dish 1.png";
 import img_sideDish from "../Img/side_dish 1.png";
 
 
-
-
 const mainCards =[
     {
         photo: img_Desert,

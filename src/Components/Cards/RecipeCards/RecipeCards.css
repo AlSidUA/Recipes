@@ -19,6 +19,7 @@
 .recipe__cards img{
     width: 100%;
     max-height: 183px;
+    cursor: pointer;
 }
 
 .recipe__cards h2{

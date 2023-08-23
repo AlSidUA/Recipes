@@ -12,7 +12,7 @@ const RecipeDetilesCards = ({obj, setModalOpen, modalClose})=>{
         <div className="detiles-cards">
             <div className="detiles-cards-left">
                 <img src={photo} alt={name}/>
-                <div div className="detiles-cards-left-content">
+                <div className="detiles-cards-left-content">
                     <h2>{name}</h2>
                     <div className="detiles-cards-left-content-names">
                         <span>Категорія:</span>
@@ -34,14 +34,14 @@ const RecipeDetilesCards = ({obj, setModalOpen, modalClose})=>{
                                 ingredients.map(value => 
                                 <div className="detiles-cards-right-ingredients-box" key={value}>
                                     {value}
-                                    <input type="checkbox" class="checkboxField" />
+                                    <input type="checkbox" className="checkboxField" />
                                 </div>)
                             }
                     </div>
                 <div className="detiles-cards-right-bottom">
                     <p>{cookingMethod}</p>
                 </div>
-                <Button onClick={handleButton} colorstyle={true} cardstyle={true} >Back</Button>
+                <Button onClick={handleButton} $colorstyle $cardstyle $yle >Back</Button>
             </div>
         </div>
     )

@@ -12,7 +12,7 @@ const Banner = ({setActivePage})=> {
                     <h1 className="banner__content_text-title">Yummy Recipes</h1>
                     <p>we have a lot of yummy recipes from all aruond the world.</p>
                     <Button onClick={() =>{setActivePage(<List/>)}}>
-                        See Recipes
+                        Всі Рецепти
                     </Button>
                 </div>
                 <div className="banner__content_banner">

@@ -1,7 +1,6 @@
 import React from "react";
 import "../CategoreCards/CategoreCards.css";
 import List from "../../List/List";
-import { useState } from "react";
 
 const CategoreCards = ({obj, setActivePage})=>{
     const {photo, names, text, type} = obj;
